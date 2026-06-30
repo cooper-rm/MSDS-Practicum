@@ -427,3 +427,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Course material — not part of the deliverable repo
+lecture-slides/
+
+# Data — never commit the Home Credit files (large + competition T&Cs)
+data/
+*.csv
