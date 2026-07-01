@@ -437,6 +437,9 @@ llm-collaboration/
 # Private working notes — keep local, do not publish
 IDEAS.md
 
+# Personal slide deliverables — keep local
+reports/slides/
+
 # Data — never commit the Home Credit files (large + competition T&Cs)
 data/
 *.csv

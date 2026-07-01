@@ -15,9 +15,10 @@ for *profit* beats optimizing for *accuracy* — and by how much.
 
 ## The question I'm actually answering
 
-> For a consumer lender's credit-risk desk: can we optimize a lending model around
-> expected value, future return modeling, and risk modeling in order to boost lending
-> profit relative to a standard AUC-optimized model?
+> For a consumer lender's credit-risk desk: on top of a calibrated default-prediction
+> model, can a portfolio-optimization layer — trading off expected value, future
+> returns, and risk — construct a loan book that beats a standard AUC-optimized
+> approach on risk-adjusted return?
 
 The stakeholder is the risk desk. The decision is approve, decline, or size the
 loan. Everything here is built to answer that, not to climb a ranking.
