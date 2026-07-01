@@ -1,0 +1,12 @@
+# Core EDA environment for the Home Credit practicum.
+# Minimal for now — modeling/calibration libs (lightgbm, xgboost, catboost,
+# scikit-learn, polars, shap) get added as the project reaches those phases.
+
+numpy
+pandas
+matplotlib
+seaborn
+
+# Notebooks
+jupyterlab
+ipykernel

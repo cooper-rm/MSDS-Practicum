@@ -68,6 +68,19 @@ I'll describe as "equivalent to ~Nth place" rather than a real finish. It's a cl
 outside check on the model and nothing more — the decision layer built on top is
 the part that actually matters, and the leaderboard doesn't measure it.
 
+## Repository layout
+
+```
+notebooks/    work in project order — EDA → features → models → calibration → decisioning
+src/          reusable code once it graduates out of the notebooks
+data/          the Home Credit tables (not committed — download from Kaggle)
+reports/      figures for the writeup and the final talk
+IDEAS.md      working notes and methodology decisions
+```
+
+Right now the focus is EDA — one notebook per source table under `notebooks/01_eda/`,
+getting to know the data before any modeling.
+
 ---
 
 *Methodology decisions, rationale, and a couple of extensions I'm exploring
